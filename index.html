@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>ToDoList</title>
+</head>
+<body>
+    <div class="container">
+        <h1> To Do List </h1>
+        <form name="addTodoForm">
+            <input type="text" name="title" placeholder="Title">
+            <input type="text" name="description" placeholder="Description">
+            <input type="number" name="price" placeholder="Price">
+            <input type="text" name="imageUrl" placeholder="Add Image URL">
+            <button>Add ToDo</button>
+        </form>
+        <!-- <div id="edit-container"></div> -->
+        <br/>
+        <div id="list-container">
+                <div id="edit-container"></div>
+        </div> 
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>   
